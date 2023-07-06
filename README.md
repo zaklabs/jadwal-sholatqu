@@ -1,4 +1,4 @@
-# Jadwal Shalat wilayah Indonesia 
+# Jadwal Sholat wilayah Indonesia 
 
 # Requirement
 | PHP | Package |
