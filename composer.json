@@ -1,0 +1,33 @@
+{
+    "name": "zaklabs/jadwal-shalatqu",
+    "description": "Jadwal shalat Wilayah Indonesia",
+    "require": {
+        "php": "^7.2 | ^8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zaklabs\\JadwalShalat\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zaklabs\\JadwalShalat\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zaklabs",
+            "email": "zfuadi81@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
